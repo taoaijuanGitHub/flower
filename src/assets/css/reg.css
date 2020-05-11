@@ -1,0 +1,130 @@
+.regwarp {
+    font-family: 'PingFangSC-Regular';
+    font-size: 16px;
+    max-width: 640px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0 14px;
+}
+.errmsg{
+    padding-top: 20px;
+    color: red;
+}
+
+.regwarp .pictrue {
+    width: 100%;
+    height: 44px;
+    line-height: 42px;
+    margin-top: .266667rem;
+    border: 1px solid #d7d7d7;
+    border-radius: 3px;
+}
+
+.regwarp .pictrue #v_container {
+    width: 2rem;
+    height: 44px;
+    float: right;
+}
+
+.regwarp .pictrue #v_container canvas {
+    width: 100%
+}
+
+.regwarp .phonebox {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.regwarp .phonebox .phone {
+    width: 60%;
+    height: 44px;
+    line-height: 42px;
+    padding: 0;
+    border: 1px solid #d7d7d7;
+    border-radius: 3px;
+    float: left;
+}
+
+.regwarp .getmsg {
+    box-shadow: none;
+    border: 1px solid #e2e2e2;
+    background: #e2e2e2;
+    cursor: default;
+    color: #bdbdbd;
+    float: right;
+    width: 35%;
+    height: 42px;
+    border-radius: 3px;
+    line-height: 44px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.regwarp .msgreg {
+    width: 100%;
+    height: 44px;
+    line-height: 42px;
+    border: 1px solid #d7d7d7;
+    border-radius: 3px;
+}
+
+.regwarp .username {
+    width: 100%;
+    height: 44px;
+    line-height: 42px;
+    border: 1px solid #d7d7d7;
+    border-radius: 3px;
+    margin: 10px 0;
+}
+
+.regwarp .password {
+    width: 100%;
+    height: 44px;
+    line-height: 42px;
+    border: 1px solid #d7d7d7;
+    border-radius: 3px;
+    position: relative;
+}
+
+.regwarp .password .van-switch {
+    position: absolute;
+    right: .4rem;
+    top: 8px;
+}
+
+.regwarp .agree {
+    margin: 13px 0 24px;
+    font-size: 13px;
+    color: #848689;
+}
+
+.regwarp .agree a {
+    color: #f25454;
+    border-bottom: 1px solid #f25454;
+}
+
+.regwarp .regbutton {
+    width: 100%;
+    background: #e2e2e2;
+    color: #bdbdbd;
+    border: 0;
+    height: 44px;
+    line-height: 44px;
+    border-radius: 3px;
+}
+
+.clearfix {
+    overflow: auto;
+    zoom: 1;
+}
+
+.regwarp input {
+    padding-left: .266667rem !important;
+    border: 0;
+    outline: none;
+}
+
+.regwarp input::-webkit-input-placeholder {
+    color: #d7d7d7;
+}
